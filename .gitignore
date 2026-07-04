@@ -1,0 +1,11 @@
+# Repo ini HANYA dokumentasi — tidak boleh ada kode sumber / rahasia.
+*.env
+*.key
+*.pem
+*.jks
+*.keystore
+*.apk
+*.aab
+node_modules/
+.DS_Store
+Thumbs.db
