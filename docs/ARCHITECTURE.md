@@ -1,4 +1,4 @@
-# 🏛️ Arsitektur
+# Arsitektur
 
 Gambaran tingkat tinggi. Detail infrastruktur (domain, host, path, kunci) **sengaja tidak dicantumkan** demi keamanan.
 

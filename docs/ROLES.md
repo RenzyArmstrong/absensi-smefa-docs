@@ -1,4 +1,4 @@
-# 🔐 Peran & Hak Akses
+# Peran & Hak Akses
 
 Sistem memakai **5 peran** dengan hak yang bertingkat. Prinsipnya: **hak seminimal yang diperlukan** (least privilege), dan tiap peran hanya bisa melakukan yang menjadi tugasnya.
 
@@ -7,7 +7,7 @@ siswa  ⊂  guru  ⊂  guru_bk        (peran di APLIKASI)
                      admin  ⊂  super admin   (peran di PANEL WEB)
 ```
 
-## 👤 Matriks Hak Akses
+## Matriks Hak Akses
 
 | Kemampuan | Siswa | Guru | Guru BK | Admin | Super Admin |
 |---|:---:|:---:|:---:|:---:|:---:|
@@ -29,7 +29,7 @@ siswa  ⊂  guru  ⊂  guru_bk        (peran di APLIKASI)
 
 > Perbedaan **admin** vs **super admin** hanya satu: **hanya super admin** yang boleh membuat/menghapus akun panel lain. Ini mencegah seorang admin mengangkat dirinya atau orang lain menjadi admin (anti eskalasi hak).
 
-## 🧑‍🎓 Siswa
+## Siswa
 
 Pengguna dasar. Hanya melayani dirinya sendiri:
 
@@ -39,7 +39,7 @@ Pengguna dasar. Hanya melayani dirinya sendiri:
 
 Siswa **tidak** bisa melihat data siswa lain.
 
-## 🧑‍🏫 Guru (guru mapel)
+## Guru (guru mapel)
 
 Guru mata pelajaran. **Tidak absen** — hanya **memantau**:
 
@@ -50,7 +50,7 @@ Guru mata pelajaran. **Tidak absen** — hanya **memantau**:
 
 > 🔒 Secara teknis, guru **hanya** dapat menulis kolom *catatan*. Ia **tidak bisa** mengubah kehadiran, jam, status telat, membuat, atau menghapus data absensi — dijamin oleh aturan di server, bukan sekadar disembunyikan di UI.
 
-## 🧑‍⚕️ Guru BK
+## Guru BK
 
 Semua yang guru bisa, **ditambah** wewenang bimbingan konseling:
 
@@ -59,7 +59,7 @@ Semua yang guru bisa, **ditambah** wewenang bimbingan konseling:
 - **Ekspor** rekap absensi & izin (CSV).
 - Peringatan otomatis bila siswa **Alfa 3 hari berturut-turut**.
 
-## 🛠️ Admin (panel web)
+## Admin (panel web)
 
 Pengelola harian lewat browser. Hampir setara super admin:
 
@@ -68,7 +68,7 @@ Pengelola harian lewat browser. Hampir setara super admin:
 - Atur **aplikasi & geofence** (jam masuk, batas alfa, titik/radius sekolah, mode pemeliharaan, versi).
 - Kelola **akun guru** aplikasi, **rilis** versi aplikasi, **pemeliharaan data** & **audit log**.
 
-## 👑 Super Admin (panel web)
+## Super Admin (panel web)
 
 Pemegang tertinggi. Semua yang admin bisa **plus** satu-satunya yang boleh **mengelola akun panel** (membuat/menghapus admin lain). Kredensial super admin disimpan terpisah dari basis data.
 

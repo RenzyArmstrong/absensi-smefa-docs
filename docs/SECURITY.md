@@ -1,4 +1,4 @@
-# 🛡️ Keamanan (Tingkat Tinggi)
+# Keamanan (Tingkat Tinggi)
 
 Ringkasan prinsip keamanan. **Tidak** memuat kunci, kredensial, URL, atau detail yang bisa disalahgunakan.
 

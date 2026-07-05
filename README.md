@@ -1,49 +1,45 @@
-# 📚 SMEFA Absence — Dokumentasi
+# SMEFA Absence — Dokumentasi
 
-Dokumentasi resmi **SMEFA Absence**, sistem absensi sekolah berbasis **pengenalan wajah + geofence**, dengan **panel admin web** dan **notifikasi WhatsApp**. Dibuat untuk **SMK YP Fatahillah 2 · Cilegon**.
+Dokumentasi SMEFA Absence, sistem absensi sekolah berbasis pengenalan wajah dan geofence, dengan panel admin web dan notifikasi WhatsApp. Dibuat untuk SMK YP Fatahillah 2 Cilegon.
 
-> ⚠️ **Repo ini hanya DOKUMENTASI** — bukan kode sumber aplikasi. Tidak berisi kunci, kredensial, URL server, atau logika keamanan apa pun.
+Repo ini hanya berisi dokumentasi, bukan kode sumber aplikasi. Tidak ada kunci, kredensial, URL server, maupun logika keamanan di sini.
 
----
+## Ringkasan
 
-## 🎯 Ringkasan
+SMEFA Absence menggantikan absensi manual dengan alur digital yang cepat dan sulit dicurangi:
 
-SMEFA Absence menggantikan absensi manual dengan alur digital yang cepat, sulit dicurangi, dan mudah dipantau:
+- Siswa absen dengan wajah (dengan deteksi kedip supaya foto tidak bisa dipakai) dan hanya bila berada di area sekolah. Siswa PKL absen tanpa geofence.
+- Absen masuk dan pulang terekam beserta foto bukti dan status telat. Telat dihitung dari jam server, jadi jam HP tidak bisa diakali.
+- Guru memantau kehadiran per kelas dan memberi catatan. Guru BK menyetujui izin, mengelola data wajah, dan mengekspor data.
+- Admin mengelola semuanya lewat panel web. Orang tua otomatis dikabari lewat WhatsApp saat anaknya Alfa.
 
-- Siswa **absen dengan wajah** (deteksi kedip/liveness → anti foto) hanya bila berada **di area sekolah** (geofence). Siswa **PKL** absen tanpa geofence.
-- Absen **masuk & pulang** terekam beserta **foto bukti** dan **status telat** (dihitung dari jam server, anti ubah jam HP).
-- **Guru** memantau kehadiran per kelas dan memberi **catatan**; **Guru BK** menyetujui izin, mengelola wajah, dan ekspor data.
-- **Admin** mengelola semua lewat panel web; **notifikasi WhatsApp** otomatis mengabari orang tua saat anak Alfa.
-
-## 🧩 Komponen Sistem
+## Komponen sistem
 
 | Komponen | Peran | Teknologi |
 |---|---|---|
-| **Aplikasi Android** | Absen wajah siswa, dashboard guru & BK | Kotlin · Jetpack Compose |
-| **Backend** | Basis data, aturan akses, hook otomatis | PocketBase (Go/SQLite) |
-| **Panel Admin** | Kelola siswa, absensi, rekap, konfigurasi | Go + Vue 3 SPA (Vite · Naive UI) |
-| **Gateway WhatsApp** | Kirim notifikasi otomatis | Node.js (Baileys) |
+| Aplikasi Android | Absen wajah siswa, dashboard guru & BK | Kotlin, Jetpack Compose |
+| Backend | Basis data, aturan akses, otomasi | PocketBase (Go/SQLite) |
+| Panel admin | Kelola siswa, absensi, rekap, konfigurasi | Go + Vue 3 (Naive UI) |
+| Gateway WhatsApp | Notifikasi otomatis | Node.js (Baileys) |
 
-Semuanya **self-hosted** di server sekolah dan diakses lewat terowongan aman (Cloudflare Tunnel). Detail infrastruktur sengaja tidak dipublikasikan demi keamanan.
+Semuanya self-hosted di server sekolah dan diakses lewat Cloudflare Tunnel. Detail infrastruktur sengaja tidak dipublikasikan.
 
-## 📖 Daftar Dokumen
+## Daftar dokumen
 
 | Dokumen | Isi |
 |---|---|
-| 📱 **[Panduan Penggunaan](docs/PANDUAN.md)** | **Cara pakai dari nol sampai berhasil absen — untuk siswa, guru, & guru BK** (langkah demi langkah + diagram alur + FAQ) |
-| [Peran & Hak Akses](docs/ROLES.md) | Matriks lengkap siswa · guru · guru BK · admin · super admin |
-| [Diagram Alur](docs/FLOWCHARTS.md) | Flowchart login, absen, izin, telat/alfa, hak akses |
+| [Panduan Penggunaan](docs/PANDUAN.md) | Cara pakai dari nol untuk siswa, guru, dan guru BK |
+| [Peran & Hak Akses](docs/ROLES.md) | Matriks hak akses siswa, guru, guru BK, admin, super admin |
+| [Diagram Alur](docs/FLOWCHARTS.md) | Flowchart login, absen, izin, telat/alfa |
 | [Fitur](docs/FEATURES.md) | Daftar fitur per peran |
-| [Arsitektur](docs/ARCHITECTURE.md) | Gambaran komponen & aliran data |
-| [Keamanan](docs/SECURITY.md) | Prinsip & lapisan keamanan (tingkat tinggi) |
+| [Arsitektur](docs/ARCHITECTURE.md) | Gambaran komponen dan aliran data |
+| [Keamanan](docs/SECURITY.md) | Prinsip dan lapisan keamanan |
 
-> 👉 **Baru pertama kali pakai?** Mulai dari **[Panduan Penggunaan](docs/PANDUAN.md)** — dituntun dari pasang aplikasi sampai berhasil absen.
+## Kredit
 
-## 👥 Kredit
-
-- **Sandi Maulana Akbar** — Software Developer · Administrator · UI/UX
-- **Pa Angga** — Administrator · Konseptor
-- **SMK YP Fatahillah 2** — © 2025–2026
+- Sandi Maulana Akbar — Software Developer, Administrator, UI/UX
+- Pa Angga — Administrator, Konseptor
+- SMK YP Fatahillah 2 — © 2025–2026
 
 ---
 

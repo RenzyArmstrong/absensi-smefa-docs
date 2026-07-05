@@ -1,4 +1,4 @@
-# ✨ Fitur
+# Fitur
 
 ## Untuk Siswa
 - **Absen wajah** masuk & pulang dengan **liveness** (kedip/gerak) → anti foto.
