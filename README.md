@@ -29,7 +29,7 @@ Semuanya self-hosted di server sekolah dan diakses lewat Cloudflare Tunnel. Deta
 | Dokumen | Isi |
 |---|---|
 | [Panduan Penggunaan](docs/PANDUAN.md) | Cara pakai dari nol untuk siswa, guru, dan guru BK |
-| [Peran & Hak Akses](docs/ROLES.md) | Matriks hak akses siswa, guru, guru BK, admin, super admin |
+| [Peran & Hak Akses](docs/ROLES.md) | Matriks hak akses siswa, guru, guru BK, dan admin |
 | [Diagram Alur](docs/FLOWCHARTS.md) | Flowchart login, absen, izin, telat/alfa |
 | [Fitur](docs/FEATURES.md) | Daftar fitur per peran |
 | [Arsitektur](docs/ARCHITECTURE.md) | Gambaran komponen dan aliran data |

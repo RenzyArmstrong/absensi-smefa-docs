@@ -130,13 +130,9 @@ flowchart TD
     S[Siswa<br/>absen · izin · lihat sendiri]
     G[Guru<br/>+ pantau kelas + catatan]
     BK[Guru BK<br/>+ approve izin + reset wajah + ekspor]
-    AD[Admin<br/>kelola semua panel]
-    SA[Super Admin<br/>+ kelola akun panel]
+    AD[Admin panel<br/>kelola semua lewat web]
 
     S --> G --> BK
-    AD --> SA
-    BK -.->|peran aplikasi| S
-    AD -.->|peran panel web| SA
 ```
 
 ---

@@ -28,7 +28,7 @@ Ringkasan prinsip keamanan. **Tidak** memuat kunci, kredensial, URL, atau detail
 - **Anti-bongkar (anti-decrypt):** kode aplikasi rilis di-obfuscate (R8); URL/konfigurasi sensitif tidak tersimpan sebagai teks polos → tetap aman walau aplikasi dibongkar.
 - **Anti-tangkap layar & anti-debug** pada layar sensitif.
 - **Panel:** CSP ketat berbasis nonce, proteksi CSRF, rate-limiting, sesi aman (anti session-fixation), dan **audit log** aktivitas.
-- **Pemisahan kredensial:** akun super admin disimpan terpisah dari basis data.
+- **Pemisahan kredensial:** akun admin panel disimpan terpisah dari basis data.
 - **Infrastruktur disembunyikan** di balik terowongan aman (tanpa membuka port publik).
 
 ## Operasional

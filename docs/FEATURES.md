@@ -21,7 +21,7 @@
 - **Ekspor** absensi & izin (CSV).
 - **Peringatan Alfa 3 hari** beruntun.
 
-## Untuk Admin / Super Admin (Panel Web)
+## Untuk Admin (Panel Web)
 - **Dashboard** ringkasan kehadiran harian.
 - **Data siswa** — tabel, cari, tambah/impor, hapus, reset PIN, kelola per kelas.
 - **Absensi** — riwayat masuk & pulang + **foto** + status **telat/alfa** (muat otomatis hari ini).
@@ -33,7 +33,6 @@
 - **Kelola wajah per kelas**, **pendaftaran wajah tersupervisi** (anti pembajakan identitas).
 - **Rilis aplikasi** — unggah & publikasikan versi baru (opsional/wajib).
 - **Monitoring** layanan + **audit log** aktivitas panel.
-- **Akun panel** *(super admin saja)* — kelola admin lain.
 
 ## Otomatisasi Server
 - **Telat & Alfa otomatis** dari jam server.
@@ -43,4 +42,4 @@
 
 ---
 
-[⬅️ Arsitektur](ARCHITECTURE.md) · [Keamanan ➡️](SECURITY.md)
+[Arsitektur](ARCHITECTURE.md) · [Keamanan](SECURITY.md)
