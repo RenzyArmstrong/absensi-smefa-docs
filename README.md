@@ -30,11 +30,14 @@ Semuanya **self-hosted** di server sekolah dan diakses lewat terowongan aman (Cl
 
 | Dokumen | Isi |
 |---|---|
-| [Arsitektur](docs/ARCHITECTURE.md) | Gambaran komponen & aliran data |
+| 📱 **[Panduan Penggunaan](docs/PANDUAN.md)** | **Cara pakai dari nol sampai berhasil absen — untuk siswa, guru, & guru BK** (langkah demi langkah + diagram alur + FAQ) |
 | [Peran & Hak Akses](docs/ROLES.md) | Matriks lengkap siswa · guru · guru BK · admin · super admin |
 | [Diagram Alur](docs/FLOWCHARTS.md) | Flowchart login, absen, izin, telat/alfa, hak akses |
 | [Fitur](docs/FEATURES.md) | Daftar fitur per peran |
+| [Arsitektur](docs/ARCHITECTURE.md) | Gambaran komponen & aliran data |
 | [Keamanan](docs/SECURITY.md) | Prinsip & lapisan keamanan (tingkat tinggi) |
+
+> 👉 **Baru pertama kali pakai?** Mulai dari **[Panduan Penggunaan](docs/PANDUAN.md)** — dituntun dari pasang aplikasi sampai berhasil absen.
 
 ## 👥 Kredit
 

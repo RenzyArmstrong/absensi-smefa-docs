@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1994" width="900" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Diagram alur absensi siswa SMEFA Absence">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8A4A1B"/>
+    </marker>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="3" dy="4" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="900" height="1994" fill="#FFFFFF"/>
+  <text x="40" y="66" font-size="34" font-weight="800" fill="#141414" letter-spacing="-0.5">Alur Absensi Siswa</text>
+  <text x="42" y="98" font-size="16" font-weight="600" fill="#6B5544">SMEFA Absence · Wajah + Lokasi · SMK YP Fatahillah 2 Cilegon</text>
+  <line x1="40" y1="112" x2="860" y2="112" stroke="#EAD6BE" stroke-width="2"/>
+  <polyline points="400,179 400,221" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="400,283 400,324" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="400,388 400,429" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="400,547 400,603" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="420" y="575" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Ya</text>
+  <polyline points="295,488 225,488 225,356 275,356" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="225" y="422" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Tidak</text>
+  <polyline points="400,669 400,722" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="518,792 610,792" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="564" y="782" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Tidak</text>
+  <polyline points="400,862 400,918" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="420" y="890" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Ya</text>
+  <polyline points="400,986 400,1038" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="520,1108 610,1108" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="565" y="1098" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Tidak</text>
+  <polyline points="715,1071 715,992 860,992 860,952 540,952" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="400,1178 400,1229" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="420" y="1203.5" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Ya</text>
+  <polyline points="400,1295 400,1329" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="275,1404 168,1404 168,1571" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="175" y="1388" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Sebelum jam masuk</text>
+  <polyline points="400,1479 410,1571" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="528" y="1482" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Sebelum batas alfa</text>
+  <polyline points="525,1404 660,1404 660,1571" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/><text x="660" y="1388" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#B4611C" paint-order="stroke" stroke="#FFFFFF" stroke-width="4">Lewat batas alfa</text>
+  <polyline points="168,1641 168,1688 330,1688 330,1694" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="410,1641 410,1694" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="660,1641 660,1688 490,1688 490,1694" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="410,1758 410,1798" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  
+<g font-family="Arial, Helvetica, sans-serif">
+  <rect x="60" y="842" width="236" height="54" rx="10" fill="#FDF1E4" stroke="#E7C6A0" stroke-width="1.5"/>
+  <text x="76" y="866" font-size="13.5" font-weight="700" fill="#8A4A1B">Catatan: Siswa PKL</text>
+  <text x="76" y="885" font-size="12.5" fill="#6B5544">absen tanpa cek lokasi (langsung kedip).</text>
+</g>
+  <ellipse cx="400" cy="150" rx="84" ry="29" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#1C1206"><tspan x="400" y="150.0">MULAI</tspan></text>
+  <rect x="278" y="221" width="244" height="62" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="241.5">Buka aplikasi</tspan><tspan x="400" y="262.5">SMEFA Absence</tspan></text>
+  <polygon points="301.88,324 525,324 498.12,388 275,388" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="345.5">Login:</tspan><tspan x="400" y="366.5">NISN + PIN</tspan></text>
+  <polygon points="400,429 505,488 400,547 295,488" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="488.0">PIN benar?</tspan></text>
+  <rect x="266" y="603" width="268" height="66" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="625.5">Layar Absensi Wajah</tspan><tspan x="400" y="646.5">(kamera otomatis aktif)</tspan></text>
+  <polygon points="400,722 518,792 400,862 282,792" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="781.5">Berada di</tspan><tspan x="400" y="802.5">area sekolah?</tspan></text>
+  <rect x="610" y="755" width="210" height="74" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="715" y="781.5">Di luar area —</tspan><tspan x="715" y="802.5">absen ditolak</tspan></text>
+  <rect x="260" y="918" width="280" height="68" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="941.5">Menoleh lalu kedip 2–3×</tspan><tspan x="400" y="962.5">(bukti wajah hidup)</tspan></text>
+  <polygon points="400,1038 520,1108 400,1178 280,1108" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="1097.5">Wajah cocok</tspan><tspan x="400" y="1118.5">&amp; hidup?</tspan></text>
+  <rect x="610" y="1071" width="210" height="74" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="715" y="1097.5">Wajah tidak cocok,</tspan><tspan x="715" y="1118.5">coba lagi</tspan></text>
+  <polygon points="296.72,1229 531,1229 503.28,1295 269,1295" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="1251.5">Ambil foto bukti</tspan><tspan x="400" y="1272.5">+ waktu server</tspan></text>
+  <polygon points="400,1329 525,1404 400,1479 275,1404" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="400" y="1393.5">Cek jam absen</tspan><tspan x="400" y="1414.5">(jam server)</tspan></text>
+  <polygon points="99.4,1571 266,1571 236.6,1641 70,1641" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="168" y="1606.0">HADIR</tspan></text>
+  <polygon points="334.4,1571 515,1571 485.6,1641 305,1641" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="410" y="1595.5">HADIR + Telat</tspan><tspan x="410" y="1616.5">X menit</tspan></text>
+  <polygon points="591.4,1571 758,1571 728.6,1641 562,1641" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="660" y="1606.0">ALFA</tspan></text>
+  <polygon points="296.88,1694 550,1694 523.12,1758 270,1758" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1C1206"><tspan x="410" y="1715.5">Simpan absensi</tspan><tspan x="410" y="1736.5">+ notifikasi WhatsApp</tspan></text>
+  <ellipse cx="410" cy="1828" rx="116" ry="30" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#1C1206"><tspan x="410" y="1816.5">SELESAI —</tspan><tspan x="410" y="1839.5">buka Dashboard</tspan></text>
+  
+<g font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6B5544">
+  <rect x="40" y="1924" width="820" height="46" rx="12" fill="#FCF4EA" stroke="#EAD6BE" stroke-width="1.5"/>
+  <ellipse cx="66" cy="1947" rx="16" ry="9" fill="#D9843B" stroke="#9C511C" stroke-width="2"/>
+  <text x="90" y="1951">Mulai / Selesai</text>
+  <polygon points="238,1938 262,1938 252,1956 228,1956" fill="#D9843B" stroke="#9C511C" stroke-width="2"/>
+  <text x="272" y="1951">Input / Hasil</text>
+  <rect x="410" y="1937" width="34" height="20" rx="4" fill="#D9843B" stroke="#9C511C" stroke-width="2"/>
+  <text x="452" y="1951">Proses</text>
+  <polygon points="560,1947 576,1936 592,1947 576,1958" fill="#D9843B" stroke="#9C511C" stroke-width="2"/>
+  <text x="602" y="1951">Keputusan (Ya/Tidak)</text>
+</g>
+</svg>

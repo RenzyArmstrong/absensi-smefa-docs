@@ -1,6 +1,22 @@
 # 🧭 Diagram Alur
 
-Semua diagram di bawah memakai **Mermaid** — otomatis tampil sebagai gambar saat dibuka di GitHub.
+> 📱 Mencari panduan langkah demi langkah? Lihat **[Panduan Penggunaan](PANDUAN.md)** (siswa, guru, & guru BK).
+
+## Ringkasan Visual — Alur Absensi Siswa
+
+Diagram utama proses absen harian, dari login sampai kehadiran tersimpan:
+
+![Alur absensi siswa SMEFA Absence: mulai, buka aplikasi, login NISN dan PIN, layar absensi wajah, cek berada di area sekolah (siswa PKL dilewati), menoleh lalu kedip 2-3 kali, cek wajah cocok dan hidup, ambil foto bukti dan waktu server, cek jam absen menentukan status Hadir / Hadir plus Telat / Alfa, simpan absensi dan notifikasi, selesai](assets/alur-absensi.svg)
+
+**Alur pertama kali** (onboarding, sekali saja):
+
+![Alur pertama kali siswa SMEFA Absence: login pertama, lengkapi data dan ganti PIN, admin membuka pendaftaran wajah, daftar wajah kedip 3 kali, absen masuk pertama](assets/alur-pertama-kali.svg)
+
+---
+
+## Diagram Rinci (Mermaid)
+
+Diagram di bawah memakai **Mermaid** — otomatis tampil sebagai gambar saat dibuka di GitHub.
 
 ---
 

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 1080" width="620" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Diagram alur pertama kali (onboarding) siswa SMEFA Absence">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A4A1B"/></marker>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="3" dy="4" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.22"/></filter>
+  </defs>
+  <rect x="0" y="0" width="620" height="1080" fill="#FFFFFF"/>
+  <text x="34" y="62" font-size="30" font-weight="800" fill="#141414" letter-spacing="-0.5">Alur Pertama Kali</text>
+  <text x="36" y="92" font-size="15" font-weight="600" fill="#6B5544">Sekali saja saat mulai pakai · SMEFA Absence</text>
+  <line x1="34" y1="108" x2="586" y2="108" stroke="#EAD6BE" stroke-width="2"/>
+  <polyline points="310,179 310,225" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="310,291 310,335" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="310,409 310,463" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="310,537 310,591" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="310,665 310,719" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <polyline points="310,793 310,842" fill="none" stroke="#8A4A1B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <ellipse cx="310" cy="150" rx="84" ry="29" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1C1206"><tspan x="310" y="150.0">MULAI</tspan></text>
+  <polygon points="176.4,225 470,225 443.6,291 150,291" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.5" font-weight="700" fill="#1C1206"><tspan x="310" y="247.3">Login pertama:</tspan><tspan x="310" y="268.8">NISN + PIN dari admin</tspan></text>
+  <rect x="140" y="335" width="340" height="74" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.5" font-weight="700" fill="#1C1206"><tspan x="310" y="361.3">Lengkapi data diri</tspan><tspan x="310" y="382.8">&amp; GANTI PIN sendiri</tspan></text>
+  <rect x="120" y="463" width="380" height="74" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.5" font-weight="700" fill="#1C1206"><tspan x="310" y="489.3">Guru/Admin buka</tspan><tspan x="310" y="510.8">Pendaftaran Wajah kamu</tspan></text>
+  <polygon points="169.6,591 480,591 450.4,665 140,665" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.5" font-weight="700" fill="#1C1206"><tspan x="310" y="617.3">Daftar wajah:</tspan><tspan x="310" y="638.8">kedip 3× (3 sampel)</tspan></text>
+  <rect x="140" y="719" width="340" height="74" rx="6" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="16.5" font-weight="700" fill="#1C1206"><tspan x="310" y="745.3">Lanjut ABSEN MASUK</tspan><tspan x="310" y="766.8">pertama (verifikasi wajah)</tspan></text>
+  <ellipse cx="310" cy="872" rx="120" ry="30" fill="#D9843B" stroke="#9C511C" stroke-width="3" stroke-linejoin="round" filter="url(#ds)"/><text text-anchor="middle" dominant-baseline="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1C1206"><tspan x="310" y="860.5">SELESAI —</tspan><tspan x="310" y="883.5">siap absen harian</tspan></text>
+</svg>
